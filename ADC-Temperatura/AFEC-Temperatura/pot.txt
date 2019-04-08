@@ -1,0 +1,22 @@
+﻿------ Build started: Project: ADC, Configuration: Debug ARM ------
+Build started.
+Project "ADC.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\Studio\7.0\Vs\Compiler.targets" from project "C:\Users\duda\Documents\Insper\5-semestre\comp_embarcada\labs\ADC-Temperatura\AFEC-Temperatura\ADC.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils
+		C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils\make.exe all --jobs 8 --output-sync 
+		make: Nothing to be done for 'all'.
+	Done executing task "RunCompilerTask".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	20228 bytes   1.0 % Full
+				Data Memory Usage 		:	11592 bytes   2.9 % Full
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "ADC.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\Studio\7.0\Vs\Avr.common.targets" from project "C:\Users\duda\Documents\Insper\5-semestre\comp_embarcada\labs\ADC-Temperatura\AFEC-Temperatura\ADC.cproj" (entry point):
+Done building target "Build" in project "ADC.cproj".
+Done building project "ADC.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
